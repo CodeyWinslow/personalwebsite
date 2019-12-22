@@ -100,6 +100,15 @@ header h3 {
     width: 32px;
 }
 
+#nav a {
+    font-family: 'Papyrus';
+    color: white;
+}
+
+#nav a:hover {
+    color: rgb(237, 205, 100);
+}
+
 #extras {
     text-align: center;
 }
