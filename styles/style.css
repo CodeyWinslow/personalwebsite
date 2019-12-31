@@ -1,3 +1,7 @@
+/*
+Overruling Rules
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +13,36 @@ html {
     color: #000000;
 }
 
-header .fullpage {
+.fullpage {
+    height: 100vh;
+}
+
+/*
+frame rules
+*/
+
+#skillsframe {
+    background-color: green;
+}
+
+#educationframe {
+    background-color: blue;
+}
+
+#testframe {
+    background-color: red;
+}
+
+#frontpage {
+    height: 80vh;
     padding: 8em 0;
+}
+
+#frontpage-footer {
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
 }
 
 header h1 {
@@ -25,18 +57,20 @@ header h3 {
     font-family: 'Consolas', monospace;
 }
 
-.fullpage {
-    height: 100vh;
+/*
+id rules
+*/
+
+#link_resume {
+    width: 50%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 48pt;
+    text-align: left;
 }
 
-#skillsframe {
-    background-color: green;
-}
-
-#educationframe {
-    background-color: blue;
-}
-
-#testframe {
-    background-color: red;
+#link_projects {
+    width: 50%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 48pt;
+    text-align: right;
 }
