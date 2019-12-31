@@ -6,135 +6,37 @@
 
 html {
     font-family: 'Varela', sans-serif;
-    background-color: #3b4f4d;
-    color: #c8c8c8;
+    color: #000000;
 }
 
-a {
-    color: #c8c8c8;
-    text-decoration: none;
-}
-
-h1 {
-    color: #bbb891;
-}
-
-h2 {
-    color: #bbb891;
-}
-
-h3 {
-    color: #bbb891;
-}
-
-h4 {
-    color: #bbb891;
-}
-
-
-/*
-Set up header
-*/
-
-header {
-    padding: 4em 0 2em 0;
+header .fullpage {
+    padding: 8em 0;
 }
 
 header h1 {
+    font-family: 'Oswald', sans-serif;
     text-align: center;
-    font-size: 5em;
+    font-size: 120pt;
 }
 
 header h3 {
     text-align: center;
+    font-size: 24pt;
+    font-family: 'Consolas', monospace;
 }
 
-h2 {
-    font-size: 3em;
-    font-family: 'Oswald', sans-serif;
+.fullpage {
+    height: 100vh;
 }
 
-nav {
-    margin: 2em auto;
-    text-align: center;
+#skillsframe {
+    background-color: green;
 }
 
-nav a:hover {
-    color: #bbb891;
+#educationframe {
+    background-color: blue;
 }
 
-hr {
-    color: #1d2726;
-}
-
-footer {
-    text-align: center;
-    margin: 2em auto;
-}
-
-/*
-divider styles
-*/
-.divider {
-    text-align: center;
-}
-
-/*
-panel styles
-*/
-
-.panel {
-    display: flex;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-}
-/*
-.panel:before {
-    position: absolute;
-    content: "";
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    box-shadow: 15px 0 15px rgba(0,0,0,0.5),-15px 0 15px rgba(0,0,0,0.5);
-}*/
-
-.panel p {
-    padding: 1em;
-    flex-grow: 1;
-    font-size: larger;
-    font-family: 'Raleway', sans-serif;
-}
-
-.titleblock {
-    width: 45%;
-    text-align: center;
-    padding: 1em;
-    background-image: linear-gradient(to bottom, #b3b3b3, #3b4f4d);
-    color: #1d2726;
-}
-
-/*
-Specific panel styles
-*/
-
-#projects {
-    background-color: #1d2726;
-    padding: 3em;
-    text-align: center;
-}
-
-#projects a {
-    padding: 0.5em;
-    border-color: #bbb891;
-    border-style: solid;
-    border-radius: 9999px;
-    border-width: thin;
-}
-
-#projects a:hover {
-    background-color: #bbb891;
-    color: #1d2726;
+#testframe {
+    background-color: red;
 }
