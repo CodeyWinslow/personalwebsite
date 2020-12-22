@@ -38,6 +38,14 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/gallery.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+
+    <!-- unity web player -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="RapidRunTemplateData/UnityProgress.js"></script>
+    <script src="RapidRunBuild/UnityLoader.js"></script>
+    <script>
+        var unityInstance = UnityLoader.instantiate("unityContainer", "RapidRunBuild/Builds.json", {onProgress: UnityProgress});
+    </script>
 </head>
 
 <body>
@@ -133,6 +141,11 @@
             <div class="details_info">
                 <div class="row justify-content-center">
                     <div class="col-xl-6 col-md-8 ">
+                        <div style="width: 100%;">
+                            <div id="unityContainer" style="width: 240px; height: 480px; margin-left: 50%;"></div>
+                            <p>
+                                sorry this isn't centered. I spent an hour trying to center it, and am now remembering why I hate web dev</p>
+                        </div>
                         <div class="button_link" style="margin-bottom: 1em;">
                             <a href="../files/rapidrun-2.2.1.apk" class="boxed-btn3-line">Download APK</a>
                         </div>
